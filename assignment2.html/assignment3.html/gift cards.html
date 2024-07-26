@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color:lightgoldenrodyellow;
+        }
+
+        form {
+            max-width: 600px;
+
+            margin: 20px auto;
+            padding: 20px;
+            background-color: lightskyblue;
+            color: black;
+        }
+
+
+
+        .a1 {
+            margin-top: 50px;
+        }
+
+        .a2 {
+            margin-top: 50px;
+        }
+
+        .a3 {
+            margin-top: 50px;
+        }
+
+        .b1 {
+            background-color: white;
+            color: black;
+            padding: 5px;
+            margin: 20px;
+        }
+
+        .b2 {
+            background-color: white;
+            color: black;
+            padding: 5px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand p-3 m-0" style="background-color: gainsboro; color: black;">
+            <div class="container-fluid">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="website.html">HOME</a>
+                    <a class="nav-link active" aria-current="page" href="menus.html">MENUS</a>
+                    <a class="nav-link active" href="events.html">EVENTS</a>
+                    <a class="nav-link active" href="our story1.html">OUR STORY</a>
+                    <a class="nav-link active" href="contact.html">CONTACT</a>
+                    <a class="nav-link active" href="gift cards.html">GIFT CARDS</a>
+                    <a class="nav-link active" href="reservation.html">RESERVATIONS</a>
+                </div>
+            </div>
+    </div>
+    </nav>
+    <form>
+        <fieldset class="a1">
+            <legend>GIVE A GIFT</legend><br><br>
+            <label>AMOUNT:</label>
+            <input type="number" id="amount" name="amount" required><br><br>
+        </fieldset>
+        <fieldset class="a2">
+            <legend>PERSONALIZE</legend>
+            <label for="TO">TO:</label>
+            <input type="text" id="TO" name="TO" required><br><br>
+            <label for="FROM">FROM:</label>
+            <input type="text" id="FROM" name="FROM" required><br><br>
+            <label for="MESSAGE">MESSAGE:</label>
+            <textarea name="MESSAGE" id="MESSAGE"></textarea>
+        </fieldset>
+        <fieldset class="a3">
+            <legend>SCHEDULE DELIVERY</legend>
+            <label for="EMAIL">EMAIL:</label>
+            <input type="email" id="EMAIL" name="EMAIL" required placeholder="abc@gmail.com"><br><br>
+            <label for="PHONE">PHONE:</label>
+            <input type="text" id="PHONE" name="PHONE" required><br><br>
+            <label for="DATE OF DELIVERY">DATE OF DELIVERY:</label>
+            <input type="date" id="DOD" name="DOD" required><br><br>
+        </fieldset>
+        <button type="ADD ANOTHER E GIFT CARD" class="b1">ADD ANOTHER E GIFT CARD</button>
+        <button type="CHECK OUT" class="b2">CHECK OUT</button>
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
