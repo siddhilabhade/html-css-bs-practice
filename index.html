@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+ul{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+ul li:hover{
+    background-color: chartreuse;
+    color: black;
+}
+.dropdown{
+    display: none;
+}
+ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-left: -0.3cm;
+    margin-top: 0.3cm;
+
+}
+.dropdown ul li{
+    display: block;
+    background-color: aqua;
+    color: black;
+}
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+
+}
+.dropdown ul li:hover{
+    background-color: darkolivegreen;
+    color: black;
+}
+
+
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li>Home</li>
+        <li>about us</li>
+        <li>courses
+            <div class="dropdown">
+                <ul>
+                    <li>spoken</li>
+                    <li>computer software</li>
+                    <li>computer hardware</li>
+                    <li>coaching</li>
+                </ul>
+            </div>
+        </li>
+        <li>contact us</li>
+    </ul>
+
+
+    
+</body>
+
+</html>
